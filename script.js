@@ -1,5 +1,5 @@
 var indexrequest = new XMLHttpRequest();
-var inapi = "AIzaSyAq1sFZzS5FFtyx2AsHjBkcroDnldOn-ro";
+var inapi = "AIzaSyBhcqG6bWVr54qBfjwhkrD4E1cQxzcKTnA";
 var val = parseInt(Math.random()*10);
 //https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=asmr&key=AIzaSyCBjuzsvKQJ_ldss4nkoVAjpqCzMVmYl_o
 var se = ["trending","everytime special","trending news","trending heroes","trending matter","everyday special","day to day life","no matter","life go on","video songs"]
@@ -49,7 +49,7 @@ function sear(){
     // console.log(filval);
     var request = new XMLHttpRequest();
     var inputValue = document.getElementById('search').value;
-    var api = "AIzaSyAq1sFZzS5FFtyx2AsHjBkcroDnldOn-ro";
+    var api = "AIzaSyBhcqG6bWVr54qBfjwhkrD4E1cQxzcKTnA";
     // https://youtube.googleapis.com/youtube/v3/search?key=[YOUR_API_KEY]
     var url = "https://youtube.googleapis.com/youtube/v3/search?type="+filval+"&part=snippet&maxResults=25&q="+inputValue+"&key="+api;
     request.open('GET',url,true);
